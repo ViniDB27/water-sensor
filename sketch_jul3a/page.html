@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivel da Água</title>
+</head>
+<body style="overflow: hidden;">
+    <div  style="width: 100vw; height: 100vh; display: flex; flex-direction: column; justify-content: start; align-items: center;">
+        <h1>Nivel da Água no Reservatorio</h1>
+        <div style="display: flex;" >
+            <div style="display: flex; flex-direction: column; align-items: center;" >
+                <div style="height: 10px; width: 100px; background-color: black; margin-right: 50px; display: flex; justify-content: center; align-items: center;">
+                    <span style="color: white; font-size: 10px;">100%</span>
+                </div>
+                <div style="height: 290px; width: 10px; background-color: black; margin-right: 50px;" ></div>
+                <div style="height: 10px; width: 100px; background-color: black; margin-right: 50px; display: flex; justify-content: center; align-items: center;" >
+                    <span style="color: white; font-size: 10px;">50%</span>
+                </div>
+                <div style="height: 290px; width: 10px; background-color: black; margin-right: 50px;" ></div>
+                <div style="height: 10px; width: 100px; background-color: black; margin-right: 50px; display: flex; justify-content: center; align-items: center;" >
+                    <span style="color: white; font-size: 10px;">0%</span>
+                </div>
+            </div>
+            <div style="border: 2px solid black; width: 300px; height: 600px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; overflow: hidden; display: flex; flex-direction: column; justify-content: end; align-items: center;">
+                <div style="width: 300px; background-color: aqua; height: 300px;"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function(event) { 
+            setTimeout(() => window.location.reload(), 1000); 
+        });
+    </script>
+</body>
+</html>
